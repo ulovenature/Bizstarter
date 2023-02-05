@@ -17,7 +17,7 @@ use yii\filters\auth\HttpBearerAuth;
 /**
  * Site controller
  */
-class MarineCargoPolicyController extends Controller
+class CommonController extends Controller
 {
 
     /**
