@@ -83,7 +83,7 @@ class CommonController extends Controller
         return json_encode($user->attributes);
     }   
 
-    public function actionCreate()
+    public function actionMarIns()
     {
         if (Yii::$app->getRequest()->getRawBody()) {
 
